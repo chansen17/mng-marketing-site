@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+
+  body {
+    @apply bg-zinc-900 font-['Poppins'];
+  }
+
+  h1,h2,h3,h4 {
+    @apply font-['Montserrat'];
+  }
+
+  .mxw {
+    @apply max-w-[1740px] w-full mx-auto px-5 md:px-10;
+  }
+
+  .mxw-sm {
+    @apply max-w-7xl w-full mx-auto px-5 md:px-10;
+  }
+}

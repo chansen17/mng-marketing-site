@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google'
 import Hero from '@/components/Hero'
 import Figures from '@/components/Figures'
 import Features from '@/components/Features'
-import BigCTA from '@/components/BigCTA'
+import CTA from '@/components/CTA'
 import Partnerships from '@/components/Partnerships'
 import FeaturesTwo from '@/components/FeaturesTwo'
 
@@ -20,9 +20,10 @@ export default function Home() {
         <Hero />
         <Figures />
         <Features />
-        <BigCTA />
+        <CTA big text="More Features added as your team grows"/>
         <Partnerships />
         <FeaturesTwo />
+        <CTA text="More Features added as your team grows" />
       </main>
     </>
   )

@@ -48,7 +48,7 @@ const Features = () => {
                     {items?.map(i => (
                         <div className='py-6 px-3 bg-zinc-900 space-y-5 hover:-translate-y-1 transition-all border-b-4 border-b-zinc-700 hover:border-b-blue-600 duration-300 cursor-pointer'>
                             {i.icon}
-                            <h2 className='text-lg lg:text-xl xl:text-2xl font-bold text-gray-200'>{i.title}</h2>
+                            <h2 className='text-lg lg:text-xl xl:text-2xl font-bold text-gray-300'>{i.title}</h2>
                             <p className='text-md lg:text-lg text-gray-100 font-thin'>{i.text}</p>
                         </div>
                     ))}

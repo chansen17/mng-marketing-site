@@ -11,7 +11,7 @@ const Features = () => {
             ),
 
             title: 'We support your team',
-            text: "Vero veniam harum culpa earum nulla a incidunt illum. Esse alias ratione.Optio dolore impedit ad rem ducimus ad."
+            text: "Vero veniam harum culpa earum nulla a incidunt illum. Esse alias ratione.Optio dolore impedit ad rem ducimus ad.",
         },
         {
             icon: (
@@ -22,7 +22,7 @@ const Features = () => {
 
             ),
             title: 'Integrate with the missing piece with ease',
-            text: "Vero veniam harum culpa earum nulla a incidunt illum. Esse alias ratione.Optio dolore impedit ad rem ducimus ad."
+            text: "Vero veniam harum culpa earum nulla a incidunt illum. Esse alias ratione.Optio dolore impedit ad rem ducimus ad.",
         },
         {
             icon: (
@@ -32,7 +32,7 @@ const Features = () => {
             ),
 
             title: 'We organize the structure of your digital presence',
-            text: "Vero veniam harum culpa earum nulla a incidunt illum. Esse alias ratione.Optio dolore impedit ad rem ducimus ad."
+            text: "Vero veniam harum culpa earum nulla a incidunt illum. Esse alias ratione.Optio dolore impedit ad rem ducimus ad.",
         },
     ]
 
@@ -46,7 +46,7 @@ const Features = () => {
                 </div>
                 <div className='mt-14 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8'>
                     {items?.map(i => (
-                        <div className='py-6 px-3 bg-zinc-900 space-y-5 md:hover:-translate-y-1 transition-all border-b-4 border-b-zinc-700 hover:border-b-blue-600 duration-300 cursor-pointer'>
+                        <div className='py-6 px-3 bg-zinc-900 space-y-5 md:hover:-translate-y-1 transition-all border-b-4 border-b-zinc-700 hover:border-b-blue-600 duration-300 cursor-pointer relative'>
                             {i.icon}
                             <h2 className='text-lg lg:text-xl xl:text-2xl font-bold text-gray-300'>{i.title}</h2>
                             <p className='text-md lg:text-lg text-gray-100 font-thin'>{i.text}</p>

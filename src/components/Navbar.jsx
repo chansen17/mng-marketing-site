@@ -30,9 +30,9 @@ const Navbar = () => {
             </nav>
         </div>
         {toggled && (
-            <div className="h-screen fixed w-3/4 md:w-1/3 top-0 right-0 bg-black/90 backdrop-blur-sm border-l-2 border-l-gray-200 shadow-2xl shadow-black z-20">
+            <div className="animate animate__animated animate__fadeInRight animate__faster h-screen fixed w-3/4 md:w-1/3 top-0 right-0 bg-black/90 backdrop-blur-sm border-l-2 border-l-gray-200 shadow-2xl shadow-black z-20">
                 <div className="w-full px-5">
-                    <button className='group inline-flex items-center justify-between py-4 gap-5 text-xl sm:telg-2xl md:text-3xl text-gray-200 font-black hover:text-blue-600 duration-300' href="">
+                    <button onClick={navToggled} className='group inline-flex items-center justify-between py-4 gap-5 text-xl sm:telg-2xl md:text-3xl text-gray-200 font-black hover:text-blue-600 duration-300' href="">
                         <span>Close</span>
                         <span className="duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.25} stroke="currentColor" className="w-7 h-7 md:w-9 md:h-9">
